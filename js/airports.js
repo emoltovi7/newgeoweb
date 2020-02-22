@@ -18,10 +18,10 @@ function addDatosAirports() {
                     default: tipo="Sin descripción";
                 };
 
-                popupContent = "<b>Tipo:" + feature.properties.type + "</b>"+
-                "<br>Nombre:" + feature.properties.name +
-                ".Continente: " + feature.properties.continent +
-                " País:" + feature.properties.iso_country + "</b>";
+                popupContent = "<b>Tipo: " + feature.properties.type + "</b>"+
+                "<br>Nombre: " + feature.properties.name +
+                ". Continente: " + feature.properties.continent +
+                " . País: " + feature.properties.iso_country + "</b>";
                 layer.bindPopup(popupContent);
             },
             pointToLayer: function (feature, latlng) {
