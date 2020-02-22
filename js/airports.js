@@ -38,9 +38,12 @@ function addDatosAirports() {
                 };
 
                 return L.circleMarker(latlng, {
-                    radius: 6,
+                    radius: 3,
                     fillColor: fcolor,
-                    fillOpacity: 1
+                    color: fcolor,
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.8
                 });
             }
         }).addTo(map);
