@@ -10,18 +10,5 @@ body {
 }
 
 .titulo { position: absolute; top: 5px; left: 40%; width: auto; z-index: 1000; background-color: floralwhite; opacity: 90%; padding: 10px; font-size: 22px; color: #333333; border-radius: 5px; font-family: arial; }
-.leyenda { position: absolute; bottom: 5px; right: 5px; width: auto; z-index: 1000; background-color: floralwhite; opacity: 90%; padding: 10px; font-size: 16px; color: #333333; border-radius: 5px; font-family: arial; }
-p { font-size: 12px; }
-
-span{font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;}
-
-span.balloonport { background: #FF7605;
-    border-radius: 0.8em;
-    -moz-border-radius: 0.8em;
-    -webkit-border-radius: 0.8em;
-    color: #FF7605;
-    display: inline-block;
-    line-height: 1.6em;
-    margin-right: 15px;
-    text-align: center;
-    width: 1.6em; }
+.leyenda { position: absolute; bottom: 20px; right: 20px; width: auto; z-index: 1000; background-color: floralwhite; opacity: 90%; padding: 10px; font-size: 16px; color: #333333; border-radius: 5px; font-family: arial; }
+p { font-size: 15px; }
