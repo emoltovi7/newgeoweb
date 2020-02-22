@@ -34,14 +34,13 @@ function addDatosAirports() {
                     case "medium_airport":fcolor="#39109F";break;
                     case "seaplane_base":fcolor="#8A0298";break; 
                     case "small_airport":fcolor="#D7002E";break;
-                    default: fcolor="#ffffff";
+                    //default: fcolor="#ffffff";
                 };
 
                 return L.circleMarker(latlng, {
                     radius: 6,
                     fillColor: fcolor,
-                    opacity: 1,
-                    fillOpacity: 0.8
+                    fillOpacity: 1
                 });
             }
         }).addTo(map);
