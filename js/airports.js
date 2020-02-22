@@ -7,7 +7,7 @@ function addDatosAirports() {
             onEachFeature: function (feature, layer) {
 
                 var tipo;
-                switch(feature.properties.TIPUSCONST){
+                switch(feature.properties.type){
                     case "balloonport": tipo="Aeropuerto para globo";break;
                     case "closed":tipo="Aeropuerto cerrado";break;
                     case "heliport":tipo="Helipuerto";break;
@@ -26,7 +26,7 @@ function addDatosAirports() {
             },
             pointToLayer: function (feature, latlng) {
                 var fcolor;
-                switch(feature.properties.TIPUSCONST){
+                switch(feature.properties.type){
                     case "balloonport":fcolor="#FF7605";break;
                     case "closed":fcolor="#FFE805";break;
                     case "heliport":fcolor="#007834";break;
