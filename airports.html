@@ -1,0 +1,33 @@
+<html lang="es">
+<head>
+    <title>Mi mapa mundial de aeropuertos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="autor" />
+    <meta name="description" content="descripción página" />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script>
+
+    <script src="https://calvinmetcalf.github.io/leaflet-ajax/dist/leaflet.ajax.js"></script>
+
+  
+    <link rel="stylesheet" href="css/estilo_mimapabase.css" />
+    <script src="js/leaflet.ajax.min.js"></script>
+    <script src="js/mimapa_base.js"></script>
+    <script src="js/airports.js"></script>
+    <script>       
+        function initMapaAirports(){
+            init();
+            addDatosAirports();              
+        }         
+    </script>
+    
+</head>
+
+<body onLoad="initMapaAirports()">
+    <div id="map"> </div>
+</body>
+
+</html>
