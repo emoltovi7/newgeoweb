@@ -8,3 +8,7 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.titulo { position: absolute; top: 5px; left: 40%; width: auto; z-index: 1000; background-color: floralwhite; opacity: 90%; padding: 10px; font-size: 22px; color: #333333; border-radius: 5px; font-family: arial; }
+.leyenda { position: absolute; bottom: 5px; right: 40%; width: auto; z-index: 1000; background-color: floralwhite; opacity: 90%; padding: 10px; font-size: 16px; color: #333333; border-radius: 5px; font-family: arial; }
+p { font-size: 12px; }
