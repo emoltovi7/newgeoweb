@@ -42,7 +42,7 @@ function init() {
         'Foto': Esri_WorldImagery,
         'Hibrid': hibrid
     };
-    controlCapas = L.control.layers(mapaBase, null, { collapsed: true });
+    controlCapas = L.control.layers(mapaBase, null, { collapsed: false });
     controlCapas.addTo(map);
     controlEscala = L.control.scale();
     controlEscala.addTo(map);
