@@ -26,13 +26,13 @@ function addDatosAirports() {
             pointToLayer: function (feature, latlng) {
                 var fcolor;
                 switch(feature.properties.type){
-                    case "balloonport":fcolor="#FF7605";break;
-                    case "closed":fcolor="#FFE805";break;
+                    case "balloonport":fcolor="#39109F";break; 
+                    case "closed":fcolor="#016166";break;
                     case "heliport":fcolor="#007834";break;
-                    case "large_airport":fcolor="#016166";break;
-                    case "medium_airport":fcolor="#39109F";break;
+                    case "large_airport":fcolor="#D7002E";break; 
+                    case "medium_airport":fcolor="#FF7605";break; 
                     case "seaplane_base":fcolor="#8A0298";break; 
-                    case "small_airport":fcolor="#D7002E";break;
+                    case "small_airport":fcolor="#FFE805";break;
                     //default: fcolor="#ffffff";
                 };
 
